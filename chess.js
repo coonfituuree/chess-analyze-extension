@@ -23,9 +23,9 @@
 
   async function handleClick() {
     clickShare();
-    await sleep(1000);
+    await sleep(3000);
     clickPGNTab();
-    await sleep(2000);
+    await sleep(3000);
 
     const pgn = getPGN();
     if (!pgn) {

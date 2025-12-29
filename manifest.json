@@ -3,6 +3,12 @@
   "name": "WintrChess Analysis",
   "version": "1.0",
   "description": "Export PGN from Chess.com to WintrChess Analysis",
+  "icons": {
+    "16": "public/icon.png",
+    "32": "public/icon.png",
+    "48": "public/icon.png",
+    "128": "public/icon.png"
+  },
   "content_scripts": [
     {
       "matches": ["https://www.chess.com/*"],
