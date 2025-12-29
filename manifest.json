@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "WintrChess Analysis",
+  "version": "1.0",
+  "description": "Export PGN from Chess.com to WintrChess Analysis",
+  "content_scripts": [
+    {
+      "matches": ["https://www.chess.com/*"],
+      "js": ["chess.js"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": ["https://wintrchess.com/analysis*"],
+      "js": ["wintrchess.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
